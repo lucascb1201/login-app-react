@@ -5,7 +5,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
 import logo from '../../assets/banner.png';
 import storeButtons from '../../assets/store_buttons.png';
-import Checkbox from '../../components/Checkbox';
+import { Checkbox } from '../../components/Checkbox';
 
 function Login() {
 

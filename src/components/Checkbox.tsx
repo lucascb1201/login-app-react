@@ -58,4 +58,4 @@ const [checkbox, setCheckbox] = useState(false);
   </CheckboxContainer>
 )};
 
-export default Checkbox;
+export { Checkbox };

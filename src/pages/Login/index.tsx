@@ -169,7 +169,7 @@ const CustomButton = styled.button`
   border: none;
 `;
 
-const Container = styled.div`
+const Container = styled.div<{isMobile: boolean}>`
   margin: 0 auto;
   background: #F0F0F0;
   width: ${ (props) => props?.isMobile ? 'auto' : '1200px' };
@@ -187,7 +187,7 @@ const Banner = styled.div`
   border-radius: 1em 0 0 1em;
 `;
 
-const LoginContainer = styled.div`
+const LoginContainer = styled.div<{isMobile: boolean}>`
   border-radius: ${({isMobile}) => isMobile ? '1em' : '0 1em 1em 0'};
   display: flex;
   flex: 1;
@@ -197,7 +197,7 @@ const LoginContainer = styled.div`
   background: #FFF;
 `;
 
-const LoginSubContainer = styled.div`
+const LoginSubContainer = styled.div<{isMobile: boolean}>`
   /* background: #333; */
   width: ${({isMobile}) => isMobile ? '90%' : '70%'};
 `;

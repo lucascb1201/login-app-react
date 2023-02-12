@@ -26,7 +26,7 @@ const HiddenCheckbox = styled.input.attrs({ type: 'checkbox' })`
   width: 1px;
 `;
 
-const StyledCheckbox = styled.div`
+const StyledCheckbox = styled.div<{checked: boolean}>`
   display: inline-block;
   width: 20px;
   height: 20px;
